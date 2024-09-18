@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paso 2 - Datos del Tutor o Representante Legal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6b456c;
+            padding: 20px;
+        }
+        .form-container {
+
+            background-color: #ffffff;
+            padding: 20px;
+            margin: auto;
+            max-width: 600px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+            border-radius: 18px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 7px;
+            border: 1px solid #6b456c;
+            border-radius: 10px;
+        }
+        .button-group {
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin: 10px;
+            background-color: #31a252;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        button:hover{
+            background-color: #6b456c;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Paso 2: Datos del Tutor o Representante Legal</h2>
+    <form>
+        <div class="form-group">
+            <label for="nombre_tutor">Nombre Completo del Tutor/Representante Legal:</label>
+            <input type="text" id="nombre_tutor" name="nombre_tutor" required>
+        </div>
+        <div class="form-group">
+            <label for="parentesco_tutor">Parentesco o Relación con el NNA:</label>
+            <input type="text" id="parentesco_tutor" name="parentesco_tutor" required>
+        </div>
+        <div class="form-group">
+            <label for="telefono_tutor">Teléfono del Tutor:</label>
+            <input type="tel" id="telefono_tutor" name="telefono_tutor" required>
+        </div>
+        <div class="form-group">
+            <label for="email_tutor">Correo Electrónico del Tutor:</label>
+            <input type="email" id="email_tutor" name="email_tutor">
+        </div>
+        <div class="form-group">
+            <label for="direccion_tutor">Dirección del Tutor:</label>
+            <input type="text" id="direccion_tutor" name="direccion_tutor">
+        </div>
+        <div class="button-group">
+            <a href="Formato1.html"><button type="button">Atrás</button></a>
+            <a href="Formato3.html"><button type="button">Siguiente</button></a>
+        </div>
+    </form>
+</div>
+<script>
+    document.querySelector('a[href="Formato3.html"]').addEventListener('click', function() {
+        // Guardar los datos del Tutor en localStorage
+        localStorage.setItem('nombre_tutor', document.getElementById('nombre_tutor').value);
+        localStorage.setItem('parentesco_tutor', document.getElementById('parentesco_tutor').value);
+        localStorage.setItem('telefono_tutor', document.getElementById('telefono_tutor').value);
+        localStorage.setItem('email_tutor', document.getElementById('email_tutor').value);
+        localStorage.setItem('direccion_tutor', document.getElementById('direccion_tutor').value);
+    });
+</script>
+
+</body>
+</html>
+

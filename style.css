@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,699;1,699&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,699;1,699&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: #6b456c;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 100px;
+}
+
+main {
+    background-color: #dffda7;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+.inicio {
+    display: flex;
+    padding: 10px;
+}
+
+.info {
+    margin: 60px;
+    height: 500px;
+    width: 600px;
+    text-align: center;
+}
+
+.logoindex {
+    padding-top: 100px;
+    height: 500px;
+    width: 600px;
+    text-align: center;
+}
+
+.logind,
+.kids2 {
+    border-radius: 100%;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px;
+}
+
+.register a {
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    background-color: #6b456c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 4px;
+}
+
+
+.about {
+    width: 100%;
+    height: 700px;
+    background-color: #31a252;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-info {
+    margin: 50px;
+    height: 500px;
+    width: 600px;
+    text-align: center;
+}
+
+.about-info p {
+    padding: 10px;
+}
+
+.derechos {
+    padding-top: 30px;
+    height: 500px;
+    width: 600px;
+}
+
+h2,
+h3 {
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.evaluacion {
+    background-color: #ffffe5;
+    padding: 40px;
+}
+
+.titulo {
+    padding: 20px;
+    font-size: 22px;
+}
+
+.evaluacion-info {
+    display: flex;
+}
+
+.recuadro {
+    height: 500px;
+    width: 600px;
+}
+
+.img-2 {
+    margin: 30px;
+    padding-left: 70px;
+    height: 500px;
+    width: 800px;
+}
+
+.grid-target {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
+}
+
+.Uno, .Dos, .Tres, .Cuatro {
+    margin: 20px;
+    color: #fff;
+    background-color: #6b456c;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+/*
+
+    height: 400px;
+    width: 300px;
+    background-color: #6b456c;
+    color: #fff;
+*/
